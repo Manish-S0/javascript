@@ -23,3 +23,7 @@ console.log(user[mySym])
 Object.freeze(user);
 user.email="wizard@gmail.com"
 console.log(user.email)
+
+user.greeting=function(){
+  console.log("hello");
+}
