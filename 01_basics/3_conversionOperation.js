@@ -57,3 +57,13 @@
 // console.log(Boolean(temp));
 // console.log(typeof (Boolean(temp)));
 
+
+
+//*****************Operation************
+console.log(null>0);
+console.log(null==0);
+console.log(null>=0);// comparison operator(>,<,>=,<=) works different from equality check(==) 
+
+console.log(undefined>0);
+console.log(undefined==0);
+console.log(undefined>=0);
