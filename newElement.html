@@ -8,6 +8,7 @@
 <body>
   <script>
 
+    // function to create element
     function createNewDiv(text,childText,bgColor,textColor){
       const div=document.createElement('div');
       div.className='main'
@@ -22,6 +23,15 @@
     }
     createNewDiv('A new Element',' created','red','black');
     createNewDiv('using div attributed','','black','white');
+
+    // loop to create element
+
+    for (let i = 0; i < 5; i++) {
+      bgColorArray=['red','black','green','blue','yellow']
+      textColorArray=['black','red','white','white']
+      createNewDiv('hello,',' how are you?',bgColorArray[i],(textColorArray[i]));
+      
+    }
     
   </script>
   
