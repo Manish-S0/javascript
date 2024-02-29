@@ -1,0 +1,33 @@
+.background{
+  background-color: black;
+  color: white;
+}
+/* span{
+  display: block;
+} */
+.button{
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+}
+.canvas{
+  margin: 100px;
+  text-align: center;
+
+}
+#white{
+  background: white;
+
+}
+#red{
+  background: red;
+
+}
+#purple{
+  background: purple;
+
+}
+#blue{
+  background: blue;
+}

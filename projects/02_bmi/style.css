@@ -1,0 +1,42 @@
+body{
+  background-color: rgb(150, 150, 148);
+  color: black;
+}
+.container{
+  padding-left: 30px;
+  width: 575px;
+  height: 825px;
+
+}
+h1{
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-left: 15px;
+}
+#height,
+#weight{
+  width: 150px;
+  height: 25px;
+  margin-top: 30px;
+}
+#weight-guide{
+  margin-left: 75px;
+  margin-top: 25px;
+}
+#results{
+  font-size:35px;
+  margin-left: 90px;
+  margin-top: 20px;
+  
+}
+button{
+  width: 150px;
+  height: 35px;
+  margin-left: 90px;
+  margin-top: 25px;
+  /* padding: 1px 25px; */
+  border-radius: 10px;
+  border: 2px solid;
+  font-size: 25px;
+
+}
