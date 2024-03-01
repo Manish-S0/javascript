@@ -2,3 +2,48 @@ body{
     background-color: #212121;
     color: white;
 }
+.lastResult
+.guesses{
+    padding: 7px;
+}
+button{
+
+}
+#subt{
+    width: 200px;
+    height:50px;
+    border-radius: 10px;
+    font-size: 20px;
+    border-style: none;
+    margin-top: 50px;
+
+}
+#guessField{
+    width: 250px;
+    border-style: none;
+    height: 50px;
+    font-size: 30px;
+    margin-top:25px;
+    border: 5px solid grey;
+    text-align: center;
+}
+#guess{
+    font-size: 50px;
+    margin-top: 140px;
+}
+#wrapper{
+    box-sizing: border-box;
+    text-align: center;
+    width: 450px;
+    height: 550px;
+    font-size: 25px;
+
+}
+p{
+    font-size: 15px;
+    text-align: center;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+}
