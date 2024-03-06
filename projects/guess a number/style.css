@@ -2,13 +2,11 @@ body{
     background-color: #212121;
     color: white;
 }
-.lastResult
+.lastResult,
 .guesses{
     padding: 7px;
 }
-button{
 
-}
 #subt{
     width: 200px;
     height:50px;
@@ -46,4 +44,17 @@ p{
 h1{
     font-weight: bold;
     text-align: center;
+}
+.newgame{
+    background-color:white;
+    color: black;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-style: none;
+    margin-top: 50px;
+    /* text-align:center; */
+    box-sizing: border-box;
+
 }
